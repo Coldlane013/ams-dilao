@@ -22,7 +22,7 @@
         $select = bin2hex(random_bytes(8));
         $token = random_bytes(32);
 
-        $url = "https://dilao-parish-ams.herokuapp.com/dtr_panel/create_new_password?select=".$select."&validator=".bin2hex($token);
+        $url = "https://************/dtr_panel/create_new_password?select=".$select."&validator=".bin2hex($token);
         $expires = date("U") + 1800;
 
 

@@ -1,0 +1,16 @@
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>
+<Files connection.php>
+    Order allow,deny
+    Deny from all
+</Files>
+<Files connection2.php>
+    Order allow,deny
+    Deny from all
+</Files>
+<Files class_model.php>
+    Order allow,deny
+    Deny from all
+</Files>

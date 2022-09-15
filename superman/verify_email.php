@@ -88,7 +88,7 @@
     );
 
     $to = $userEmail;
-    $mail->setFrom($email, '@noreply_resetpass.dilao@gmail.com');
+    $mail->setFrom($email, '@********@gmail.com');
     $mail->addAddress($to);
 
 
@@ -96,7 +96,7 @@
     $mail->isHTML(true);
 
     $subject = "Password Reset for DILAO PARISH DTR";
-    $headers = "From: AMS <noreply_resetpass.dilao@gmail.com>\r\n";
+    $headers = "From: AMS <**********@gmail.com>\r\n";
     $headers .= "Reply-To:*********@gmail.comr\n";
     $headers .= "Content-type:text/html\r\n";  
     $message = '<p>Received Password Reset Request. The link to reset your password is below. If you did not make this request, you can ignore this email.</p></br>';

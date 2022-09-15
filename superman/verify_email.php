@@ -95,7 +95,7 @@
 
     $mail->isHTML(true);
 
-    $subject = "Password Reset for DILAO PARISH DTR";
+    $subject = "Password Reset for DILAO PARISH AMS";
     $headers = "From: AMS <**********@gmail.com>\r\n";
     $headers .= "Reply-To:*********@gmail.comr\n";
     $headers .= "Content-type:text/html\r\n";  

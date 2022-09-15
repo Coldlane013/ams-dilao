@@ -118,7 +118,7 @@
     );
 
     $to = $useremail;
-    $mail->setFrom($email, '@noreply_resetpass.dilao@gmail.com');
+    $mail->setFrom($email, '**********.com');
     $mail->addAddress($to);
 
 
